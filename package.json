@@ -1,0 +1,26 @@
+{
+  "name": "nativeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sync": "cap sync",
+    "android": "cap open android",
+    "ios": "cap open ios",
+    "add:android": "cap add android",
+    "add:ios": "cap add ios",
+    "serve": "cap serve",
+    "update:url": "node scripts/update-url.js",
+    "build": "npm run update:url && npm run sync"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^5.7.8",
+    "@capacitor/app": "^5.0.8",
+    "@capacitor/cli": "^5.7.8",
+    "@capacitor/core": "^5.7.8",
+    "@capacitor/ios": "^5.7.8"
+  }
+}
