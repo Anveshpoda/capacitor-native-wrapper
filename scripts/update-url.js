@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Get the URL from environment variable or use default
-const newUrl = process.env.APP_URL || 'http://localhost:2024';
+const newUrl = process.env.APP_URL || 'https://profithands.com/';
 
 // Read the capacitor config
 const configPath = path.join(__dirname, '..', 'capacitor.config.json');

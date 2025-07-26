@@ -1,0 +1,21 @@
+{
+  "appId": "com.nativewrapper.app",
+  "appName": "NativeWrapper",
+  "webDir": "www",
+  "server": {
+    "url": "https://profithands.com/",
+    "cleartext": true,
+    "hostname": "app"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "backgroundColor": "#FFFFFF",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": true,
+      "splashFullScreen": true,
+      "splashImmersive": true
+    }
+  }
+}
