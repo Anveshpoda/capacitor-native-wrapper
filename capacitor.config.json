@@ -1,12 +1,13 @@
 {
-  "appId": "com.nativewrapper.app",
-  "appName": "NativeWrapper",
+  "appId": "com.profithands.app",
+  "appName": "Profit Hands",
   "webDir": "www",
   "server": {
     "url": "https://profithands.com/",
     "cleartext": true,
     "hostname": "app"
   },
+
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 3000,

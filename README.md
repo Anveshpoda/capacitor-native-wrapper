@@ -35,6 +35,28 @@ npm install
 npm run build
 ```
 
+## App Assets
+
+### Setting up App Icons and Splash Screens
+
+1. **Prepare your assets**:
+   - Place your app icon as `resources/icon.png` (recommended size: 1024x1024px)
+   - Place your splash screen as `resources/splash.png` (recommended size: 2732x2732px)
+
+2. **Generate platform-specific assets**:
+   ```bash
+   # Install cordova-res if not already installed
+   npm install -g cordova-res
+
+   # Generate and copy resources for both platforms
+   cordova-res android --skip-config --copy
+   cordova-res ios --skip-config --copy
+   ```
+
+3. **Verify the assets**:
+   - For Android: Check `android/app/src/main/res/`
+   - For iOS: Check `ios/App/App/Assets.xcassets/`
+
 ## Creating/Recreating Native Apps
 
 ### Android
