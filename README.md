@@ -43,7 +43,13 @@ npm run build
    - Place your app icon as `resources/icon.png` (recommended size: 1024x1024px)
    - Place your splash screen as `resources/splash.png` (recommended size: 2732x2732px)
 
-2. **Generate platform-specific assets**:
+2. **Remove existing assets**:
+   ```bash
+   rm -rf android/app/src/main/res/mipmap-*
+   rm -rf ios/App/App/Assets.xcassets
+   ```
+
+3. **Generate platform-specific assets**:
    ```bash
    # Install cordova-res if not already installed
    npm install -g cordova-res
@@ -53,7 +59,7 @@ npm run build
    cordova-res ios --skip-config --copy
    ```
 
-3. **Verify the assets**:
+4. **Verify the assets**:
    - For Android: Check `android/app/src/main/res/`
    - For iOS: Check `ios/App/App/Assets.xcassets/`
 

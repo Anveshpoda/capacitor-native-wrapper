@@ -7,16 +7,13 @@
     "cleartext": true,
     "hostname": "app"
   },
-
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 3000,
-      "backgroundColor": "#FFFFFF",
+      "launchAutoHide": false,
       "androidSplashResourceName": "splash",
-      "androidScaleType": "CENTER_CROP",
-      "showSpinner": true,
-      "splashFullScreen": true,
-      "splashImmersive": true
+      "backgroundColor": "#FFFFFF",
+      "showSpinner": false
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "android": {
+    "icon": {
+      "sources": ["./resources/icon.png"],
+      "type": "launcher"
+    },
+    "splash": {
+      "source": "./resources/splash.png",
+      "type": "screen",
+      "density": "port-xxxhdpi"
+    }
+  }
+}

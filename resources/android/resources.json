@@ -1,0 +1,16 @@
+{
+  "android": {
+    "icon": {
+      "sources": ["resources/icon.png"],
+      "type": "launcher"
+    },
+    "splash": {
+      "ldpi": "resources/splash.png",
+      "mdpi": "resources/splash.png",
+      "hdpi": "resources/splash.png",
+      "xhdpi": "resources/splash.png",
+      "xxhdpi": "resources/splash.png",
+      "xxxhdpi": "resources/splash.png"
+    }
+  }
+}
